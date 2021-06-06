@@ -1,3 +1,14 @@
+
+// Quesion
+
+/*You must print two lines of output:
+
+Print Hello, World. on the first line.
+Print Hello, Java. on the second line.
+*/
+
+
+//Code
 public class Solution1 {
 
     public static void main(String[] args) {
