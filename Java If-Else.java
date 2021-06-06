@@ -32,17 +32,14 @@ public class Solution {
         scanner.close();
         
         if(n%2 == 0) { 
-            if(2 <=n && n <= 5){
+            if(2 <=n && n <= 5 || n>20){
                 System.out.println("Not Weird");
             }
             if(6 <=n && n<= 20){
                 System.out.println("Weird");
-            }else{
-                System.out.println("Not Weird");
             }
         }else{
             System.out.println("Weird");
         }
     }
 }
-  
